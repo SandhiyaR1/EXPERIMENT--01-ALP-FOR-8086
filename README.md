@@ -1,7 +1,7 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
+Name : SANDHIYA R
+Roll no : 212222230129
+Date of experiment : 23-02-2024
 
 
 
@@ -113,11 +113,19 @@ ret
 
 
 ## Division alp 
+```
+MOV AX,1102H;
+MOV BX,1100H;
+DIV BX;
+ret
+```
 
 ## Output  
+![image](https://github.com/SandhiyaR1/EXPERIMENT--01-ALP-FOR-8086/assets/113497571/309d5e6d-1d67-4139-abf6-e4caa90fe9e9)
 
 
 ## Result :
+Thus the ALP on fundamental arithmetic and logical operations are executed successfully.
  
 
 

@@ -1,10 +1,7 @@
-# EXPERIMENT--01-ALP-FOR-8086
-Name : SANDHIYA R
+### Name : SANDHIYA R
 
-Roll no : 212222230129
-
-Date of experiment : 23-02-2024
-
+#### Roll no : 212222230129
+# EXPERIMENT-01 ALP FOR 8086
 
 ## Aim: 
 To Write and execute ALP on fundamental arithmetic and logical operations

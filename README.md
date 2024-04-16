@@ -85,6 +85,58 @@ ret
 ### Output  
 ![image](https://github.com/SandhiyaR1/EXPERIMENT--01-ALP-FOR-8086/assets/113497571/309d5e6d-1d67-4139-abf6-e4caa90fe9e9)
 
+### AND
+```
+ORG 100H
+MOV BX,10000H;
+AND BX,1111H;
+MOV [0040H+02],BX;
+ret
+```
+### Output
+![WhatsApp Image 2024-04-16 at 15 57 08_43efb06a](https://github.com/SandhiyaR1/EXPERIMENT--01-ALP-FOR-8086/assets/113497571/47bf23d1-2a23-4721-b71f-d183189226ff)
+
+
+### OR 
+```
+ORG 100H
+MOV AX,[0040H+06];
+MOV BX,1000H;
+OR AX,BX;
+MOV [0040H+02],AX;
+ret
+```
+### Output
+![WhatsApp Image 2024-04-16 at 15 57 34_e46aef15](https://github.com/SandhiyaR1/EXPERIMENT--01-ALP-FOR-8086/assets/113497571/4fcf19ed-1d12-43ef-a36c-bacb8344b6d3)
+
+
+### NOT
+```
+ORG 100H
+MOV BX,0040H;
+MOV AX,[BX];
+NOT AL;
+MOV [0040H+04],AX;
+ret
+
+```
+### Output
+![WhatsApp Image 2024-04-16 at 15 58 08_518352a0](https://github.com/SandhiyaR1/EXPERIMENT--01-ALP-FOR-8086/assets/113497571/ba7f1cad-82c9-402e-9982-a558f94ec99d)
+
+
+### XOR
+```
+org 100h
+mov bx,0040h;
+mov ax,[bx]; 
+xor ax,bx;
+mov [0040h+04],ax;
+ret
+```
+### Output
+
+![WhatsApp Image 2024-04-16 at 15 58 27_92869fad](https://github.com/SandhiyaR1/EXPERIMENT--01-ALP-FOR-8086/assets/113497571/a8238626-6a6a-42a9-a724-802ae394ba2a)
+
 
 ### Result :
 Thus the ALP on fundamental arithmetic and logical operations are executed successfully.
